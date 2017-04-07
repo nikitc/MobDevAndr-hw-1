@@ -1,0 +1,7 @@
+#Sat Apr 08 01:44:19 YEKT 2017
+base.0=C\:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_56f93ecf44d971dfd2e0658593663ce7eb7a6271
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bc8e4e2ddf9ca4e8e294919cc8400f0fc6db75f3\\classes.dex
+base.1=C\:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bc8e4e2ddf9ca4e8e294919cc8400f0fc6db75f3
+file.0=C\:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_56f93ecf44d971dfd2e0658593663ce7eb7a6271\\classes.dex
