@@ -1,6 +1,7 @@
 package comnikitc.github.mobdev_hw_1;
 
 import android.content.Context;
+import android.graphics.Canvas;
 import android.graphics.Point;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -8,10 +9,15 @@ import android.view.Display;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.widget.Toast;
+
+import java.text.DateFormat;
+import java.util.Date;
 
 public class TagLayout extends ViewGroup {
     int deviceWidth;
     final String TAG = "lifecycle";
+    Context contextViewGroup;
 
     public TagLayout(Context context) {
         this(context, null, 0);
@@ -24,6 +30,7 @@ public class TagLayout extends ViewGroup {
     public TagLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init(context);
+        contextViewGroup = context;
     }
 
     private void init(Context context) {
@@ -38,8 +45,31 @@ public class TagLayout extends ViewGroup {
     }
 
     @Override
+    protected void onAttachedToWindow() {
+        super.onAttachedToWindow();
+        Log.d(TAG, "ViewGroup onAttachedToWindow");
+        showToast("ViewGroup onAttachedToWindow");
+    }
+
+    @Override
+    protected void dispatchDraw(Canvas canvas) {
+        super.dispatchDraw(canvas);
+        Log.d(TAG, "ViewGroup dispatchDraw");
+        showToast("ViewGroup dispatchDraw");
+
+    }
+
+    @Override
+    public void onViewAdded(View child) {
+        super.onViewAdded(child);
+        Log.d(TAG, "ViewGroup onViewAdded");
+        showToast("ViewGroup onViewAdded");
+    }
+
+    @Override
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
         Log.d(TAG, "ViewGroup onLayout");
+        showToast("ViewGroup onLayout");
 
         final int count = getChildCount();
         int curWidth, curHeight, curLeft, curTop;
@@ -68,7 +98,8 @@ public class TagLayout extends ViewGroup {
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        Log.d(TAG, "ViewGroup measured");
+        Log.d(TAG, "ViewGroup onMeasure");
+        showToast("ViewGroup onMeasure");
 
         int count = getChildCount();
         int maxWidth = 0;
@@ -85,5 +116,12 @@ public class TagLayout extends ViewGroup {
         setMeasuredDimension(resolveSizeAndState(maxWidth, widthMeasureSpec, childState),
                 resolveSizeAndState(200, heightMeasureSpec,
                         childState << MEASURED_HEIGHT_STATE_SHIFT));
+    }
+
+    protected void showToast(String message) {
+        String currentTimeString = DateFormat.getTimeInstance().format(new Date());
+        String toastMessage = message + " " + currentTimeString;
+        Toast toast = Toast.makeText(contextViewGroup, toastMessage, Toast.LENGTH_SHORT);
+        toast.show();
     }
 }

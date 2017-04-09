@@ -32,6 +32,10 @@
         "source": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
+        "merged": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
@@ -66,6 +70,10 @@
     {
         "merged": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",

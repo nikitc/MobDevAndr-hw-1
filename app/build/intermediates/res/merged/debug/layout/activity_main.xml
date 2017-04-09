@@ -25,14 +25,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true" />
 
-    <comnikitc.github.mobdev_hw_1.MyView
-        android:id="@+id/myView"
-        android:layout_height="150dp"
-        android:layout_width="80dp"
-        android:layout_below="@+id/tagLayout"
-        android:layout_toStartOf="@+id/button"
-        android:layout_marginTop="24dp" />
-
     <TextView
         android:text="View"
         android:layout_width="wrap_content"
@@ -53,5 +45,13 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="10dp" />
+
+    <comnikitc.github.mobdev_hw_1.MyView
+        android:id="@+id/myView"
+        android:layout_height="150dp"
+        android:layout_width="80dp"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="24dp" />
 
 </RelativeLayout>

@@ -32,6 +32,14 @@
         "source": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
+        "merged": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
         "merged": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
@@ -50,6 +58,10 @@
     {
         "merged": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout\\notification_action.xml"
     },
     {
         "merged": "C:\\Users\\Nikita\\AndroidStudioProjects\\MobDev-hw-1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",

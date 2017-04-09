@@ -1857,7 +1857,7 @@ containing a value of this type.
         public static final int action_mode_bar_stub=0x7f0b0043;
         public static final int action_mode_close_button=0x7f0b0026;
         public static final int action_text=0x7f0b005f;
-        public static final int actions=0x7f0b006c;
+        public static final int actions=0x7f0b006d;
         public static final int activity_chooser_view_content=0x7f0b0027;
         public static final int activity_main=0x7f0b0056;
         public static final int activity_two=0x7f0b005c;
@@ -1886,7 +1886,7 @@ containing a value of this type.
         public static final int home=0x7f0b0004;
         public static final int homeAsUp=0x7f0b000d;
         public static final int icon=0x7f0b002c;
-        public static final int icon_group=0x7f0b006d;
+        public static final int icon_group=0x7f0b006e;
         public static final int ifRoom=0x7f0b001f;
         public static final int image=0x7f0b0029;
         public static final int info=0x7f0b006a;
@@ -1897,7 +1897,7 @@ containing a value of this type.
         public static final int media_actions=0x7f0b0063;
         public static final int middle=0x7f0b001c;
         public static final int multiply=0x7f0b0014;
-        public static final int myView=0x7f0b0059;
+        public static final int myView=0x7f0b005a;
         public static final int never=0x7f0b0020;
         public static final int none=0x7f0b000e;
         public static final int normal=0x7f0b000a;
@@ -1908,7 +1908,7 @@ containing a value of this type.
         public static final int progress_circular=0x7f0b0005;
         public static final int progress_horizontal=0x7f0b0006;
         public static final int radio=0x7f0b0040;
-        public static final int right_icon=0x7f0b006e;
+        public static final int right_icon=0x7f0b006c;
         public static final int right_side=0x7f0b0067;
         public static final int screen=0x7f0b0015;
         public static final int scrollIndicatorDown=0x7f0b0036;
@@ -1944,7 +1944,7 @@ containing a value of this type.
         public static final int text2=0x7f0b0070;
         public static final int textSpacerNoButtons=0x7f0b0035;
         public static final int textSpacerNoTitle=0x7f0b0034;
-        public static final int textView2=0x7f0b005a;
+        public static final int textView2=0x7f0b0059;
         public static final int textView3=0x7f0b005b;
         public static final int time=0x7f0b0068;
         public static final int title=0x7f0b002d;
