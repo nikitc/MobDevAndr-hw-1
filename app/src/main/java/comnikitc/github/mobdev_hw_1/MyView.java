@@ -17,6 +17,7 @@ import java.util.Date;
 public class MyView extends View {
     final String TAG = "lifecycle";
     Context contextView;
+
     public MyView(Context context, AttributeSet attrs) {
         super(context, attrs);
         contextView = context;
@@ -24,30 +25,30 @@ public class MyView extends View {
 
     @Override
     protected void dispatchDraw(Canvas canvas) {
-        super.dispatchDraw(canvas);
-        Log.d(TAG, "MyView dispatchDraw");
         showToast("MyView dispatchDraw");
+        Log.d(TAG, "MyView dispatchDraw");
+        super.dispatchDraw(canvas);
     }
 
 
     @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
-        super.onLayout(changed, left, top, right, bottom);
-        Log.d(TAG, "MyView onLayout");
         showToast("MyView onLayout");
+        Log.d(TAG, "MyView onLayout");
+        super.onLayout(changed, left, top, right, bottom);
     }
 
     @Override
     protected void onAttachedToWindow() {
-        super.onAttachedToWindow();
-        Log.d(TAG, "MyView onAttachedToWindow");
         showToast("MyView onAttachedToWindow");
+        Log.d(TAG, "MyView onAttachedToWindow");
+        super.onAttachedToWindow();
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
-        Log.d(TAG, "MyView onDraw");
         showToast("MyView onDraw");
+        Log.d(TAG, "MyView onDraw");
 
         Rect myRect = new Rect();
         myRect.set(0, 150, 150, 500);
@@ -59,9 +60,9 @@ public class MyView extends View {
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-        Log.d(TAG, "MyView onMeasure");
         showToast("MyView onMeasure");
+        Log.d(TAG, "MyView onMeasure");
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
 
         setMeasuredDimension(widthMeasureSpec, heightMeasureSpec);
     }

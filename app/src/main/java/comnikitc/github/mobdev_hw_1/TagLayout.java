@@ -46,30 +46,31 @@ public class TagLayout extends ViewGroup {
 
     @Override
     protected void onAttachedToWindow() {
-        super.onAttachedToWindow();
-        Log.d(TAG, "ViewGroup onAttachedToWindow");
         showToast("ViewGroup onAttachedToWindow");
+        Log.d(TAG, "ViewGroup onAttachedToWindow");
+        super.onAttachedToWindow();
     }
 
     @Override
     protected void dispatchDraw(Canvas canvas) {
-        super.dispatchDraw(canvas);
-        Log.d(TAG, "ViewGroup dispatchDraw");
         showToast("ViewGroup dispatchDraw");
+        Log.d(TAG, "ViewGroup dispatchDraw");
+        super.dispatchDraw(canvas);
 
     }
 
     @Override
     public void onViewAdded(View child) {
-        super.onViewAdded(child);
-        Log.d(TAG, "ViewGroup onViewAdded");
         showToast("ViewGroup onViewAdded");
+        Log.d(TAG, "ViewGroup onViewAdded");
+        super.onViewAdded(child);
     }
 
     @Override
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
-        Log.d(TAG, "ViewGroup onLayout");
+
         showToast("ViewGroup onLayout");
+        Log.d(TAG, "ViewGroup onLayout");
 
         final int count = getChildCount();
         int curWidth, curHeight, curLeft, curTop;
@@ -98,8 +99,9 @@ public class TagLayout extends ViewGroup {
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        Log.d(TAG, "ViewGroup onMeasure");
+
         showToast("ViewGroup onMeasure");
+        Log.d(TAG, "ViewGroup onMeasure");
 
         int count = getChildCount();
         int maxWidth = 0;

@@ -20,9 +20,9 @@ public class MyApp extends Application {
 
     @Override
     public void onCreate() {
-        super.onCreate();
         Log.d(TAG, "Application onCreate");
         showToast("Application onCreate");
+        super.onCreate();
 
     }
 

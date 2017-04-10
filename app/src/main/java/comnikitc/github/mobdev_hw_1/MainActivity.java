@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        showToast("MainActivity onCreate");
+        Log.d(TAG, "MainActivity onCreate");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -29,8 +31,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         button.setOnClickListener(this);
 
 
-        Log.d(TAG, "MainActivity onCreate");
-        showToast("MainActivity onCreate");
 
         MyView myView = (MyView) findViewById(R.id.myView);
         TagLayout tagLayout = (TagLayout) findViewById(R.id.tagLayout);
@@ -50,44 +50,44 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     protected void onRestart() {
-        super.onRestart();
-        Log.d(TAG, "MainActivity onRestart");
         showToast("MainActivity onRestart");
+        Log.d(TAG, "MainActivity onRestart");
+        super.onRestart();
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        Log.d(TAG, "MainActivity onStart");
         showToast("MainActivity onStart");
+        Log.d(TAG, "MainActivity onStart");
     }
 
     @Override
     protected void onResume() {
-        super.onResume();
-        Log.d(TAG, "MainActivity onResume");
         showToast("MainActivity onResume");
+        Log.d(TAG, "MainActivity onResume");
+        super.onResume();
     }
 
     @Override
     protected void onPause() {
-        super.onPause();
-        Log.d(TAG, "MainActivity onPause");
         showToast("MainActivity onPause");
+        Log.d(TAG, "MainActivity onPause");
+        super.onPause();
     }
 
     @Override
     protected void onStop() {
-        super.onStop();
-        Log.d(TAG, "MainActivity onStop");
         showToast("MainActivity onStop");
+        Log.d(TAG, "MainActivity onStop");
+        super.onStop();
     }
 
     @Override
     protected void onDestroy() {
-        super.onDestroy();
-        Log.d(TAG, "MainActivity onDestroy");
         showToast("MainActivity onDestroy");
+        Log.d(TAG, "MainActivity onDestroy");
+        super.onDestroy();
     }
 
     @Override
